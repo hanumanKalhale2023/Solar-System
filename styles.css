@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #191970;
+    background-image: url('space.jpeg');
+}
+.solar{
+    height: 100px;
+    width: 100px;
+    background-color: #ffff00;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 2px 2px 2px 2px yellow;
+}
+.mercury{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%,-90%);
+    background-color: green;
+    border-radius: 50%;
+    margin: 29px;
+    box-shadow: 1px 1px 1px  rgb(106, 105, 105);
+}
+.venus{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(181, 164, 164);
+    border-radius: 50%;
+    position: absolute;
+    left: 109%;
+    box-shadow: 1px 1px 1px  rgb(106, 105, 105);
+}
+.earth{
+    height: 55px;
+    width: 55px;
+    background-color: #1E90FF;
+    border-radius: 50%;
+    position: absolute;
+    left: 169%;
+    box-shadow: 1px 1px 1px  rgb(106, 105, 105);
+}
+.mars{
+    height: 45px;
+    width: 45px;
+    background-color:  #9C2E35;
+    border-radius: 50%;
+    position: absolute;
+    left: 229%;
+    /* top: 60%; */
+    box-shadow: 1px 1px 1px  rgb(106, 105, 105);
+}
+.jupiter{
+    height: 75px;
+    width: 75px;
+    background-color:  	#dcd0b8;
+    border-radius: 50%;
+    position: absolute;
+    left: 299%;
+    box-shadow: 1px 1px 1px  rgb(106, 105, 105);
+}
+.satern{
+    height: 55px;
+    width: 55px;
+    background-color: #2b378b;
+    border-radius: 50%;
+    position: absolute;
+    left: 350%;
+    box-shadow: 1px 1px 1px  rgb(106, 105, 105);
+}
+.uranus{
+    height: 50px;
+    width: 50px;
+    background-color: #A0D3E8;
+    border-radius: 50%;
+    position: absolute;
+    left: 386%;
+    box-shadow: 1px 1px 1px  rgb(106, 105, 105);
+}
+.neptune{
+    height: 45px;
+    width: 45px;
+    background-color:  #40B2D3;
+    border-radius: 50%;
+    position: absolute;
+    left: 459%;
+    /* top: 60%; */
+    box-shadow: 1px 1px 1px rgb(106, 105, 105);
+}
